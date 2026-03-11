@@ -81,7 +81,7 @@ test.use({
 
 });
   
-test.only('teste butao abaixo', async ({ page }) => {
+test('teste butao abaixo', async ({ page }) => {
   await page.goto('https://automationpratice.com.br/');
   await page.getByRole('textbox', { name: 'Your Mail' }).click();
   await page.getByRole('heading', { name: 'NEWSLETTER' }).click();
