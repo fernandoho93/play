@@ -1,0 +1,23 @@
+{
+  "urls": {
+    "register": "https://practice.expandtesting.com/register",
+    "login": "https://practice.expandtesting.com/login"
+  },
+  "selectors": {
+    "username": "#username",
+    "password": "#password",
+    "confirmPassword": "#confirmPassword",
+    "submitButton": "button[type='submit']",
+    "registerForm": "[data-testid='register']"
+  },
+  "messages": {
+    "passwordMismatch": "Passwords do not match.",
+    "usernameTooShort": "Username must be at least 3 characters long.",
+    "registerSuccess": "Successfully registered, you can log in now."
+  },
+  "fixtures": {
+    "validPassword": "abc123",
+    "shortUsername": "ab",
+    "validUsernamePrefix": "pw-study"
+  }
+}

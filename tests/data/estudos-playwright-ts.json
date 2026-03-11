@@ -1,0 +1,17 @@
+{
+  "url": "https://demo.playwright.dev/todomvc",
+  "titlePattern": "React",
+  "selectors": {
+    "todoInput": "input.new-todo",
+    "todoItem": "[data-testid='todo-item']",
+    "todoTitle": "[data-testid='todo-title']",
+    "toggleTodo": "[data-testid='todo-item'] .toggle"
+  },
+  "texts": {
+    "taskStudy": "Estudar Playwright com TypeScript",
+    "taskFinish": "Finalizar primeiro teste"
+  },
+  "keys": {
+    "submit": "Enter"
+  }
+}
